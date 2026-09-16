@@ -90,6 +90,10 @@ There is no canonical answer, and the reported differences are large. Users repo
 - The lessons look like one course: they link the stylesheet in `assets/` rather than each carrying its own.
 - A question that needs judgement gets you pointed at a forum, subreddit or class, not just an answer.
 
+## A portable learning workspace
+
+Lessons, records, references, and repository sources stay connected with **relative links**. The workspace can therefore move with a repository or be cloned somewhere else without embedding one machine's home directory in the course. A missing next lesson is shown as “coming soon”, not linked to an invented file.
+
 ## Where it fits
 
 `teach` is a **reach-for-it-anytime standalone**. It is not a step in a build chain and shares no artifacts with the engineering flow; it works in its own directory for as long as you study the topic.
