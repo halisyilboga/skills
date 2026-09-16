@@ -42,6 +42,10 @@ Every lesson hangs off the **mission**. Without it, knowledge has nothing to att
 
 The word to think with is **storage strength** — long-term retention — as opposed to **fluency**, the in-the-moment recall that feels like mastery but isn't. `teach` deliberately builds the former through desirable difficulty: retrieval practice, spacing, and interleaving. Knowledge is taught first (where difficulty is the enemy), then skills are drilled through a tight feedback loop (where difficulty is the tool).
 
+## A portable learning workspace
+
+Lessons, records, references, and repository sources stay connected with **relative links**. The workspace can therefore move with a repository or be cloned somewhere else without embedding one machine's home directory in the course. A missing next lesson is shown as “coming soon”, not linked to an invented file.
+
 ## Where it fits
 
 `teach` is a reach-for-it-anytime standalone — a long-running learning project you drive session by session, not a step in a build chain. It shares no workflow with the other productivity skills; it simply owns its workspace directory and lives there. When you're unsure which skill or flow fits, [ask-matt](https://aihero.dev/skills-ask-matt) routes you.

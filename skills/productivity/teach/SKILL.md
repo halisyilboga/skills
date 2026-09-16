@@ -64,6 +64,14 @@ Each lesson should recommend a primary source for the user to read or watch. Thi
 
 Each lesson should contain a reminder to ask followup questions to the agent. The agent is their teacher, and can assist with anything that's unclear.
 
+### Portable Links
+
+Every link to a workspace or repository file must be a relative path computed from the file that contains the link. Never generate `file:///...`, home-directory, workspace-absolute, or machine-specific paths.
+
+- For lesson navigation and reference links, resolve targets relative to the lesson or document being written.
+- For repository files outside the teaching workspace, first identify the repository root, then compute the relative path from the teaching document to that target.
+- Before finishing, verify every local `href`, `src`, and Markdown link resolves from its containing file. If a planned target does not exist, do not invent a filename: render it as non-clickable “coming soon” text instead.
+
 ## Assets
 
 Lessons are built from reusable **components**, stored in `./assets/`: stylesheets, quiz widgets, simulators, diagram helpers — anything a second lesson could reuse.
